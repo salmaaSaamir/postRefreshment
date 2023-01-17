@@ -1,0 +1,685 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    background-image: url("../post refreshment/imgs/xhero_bg.jpg.pagespeed.ic.J2JpiIDF0w.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header .overflow{
+    background-color: #787a3b6b;
+    overflow: hidden;
+}
+header .row1,
+.row2,
+.right{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 8px 20px;
+}
+header .row1 i,
+p{
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+}
+header .row1 .right{
+    margin-left: 28%;
+}
+header nav{
+    display: flex;
+    text-transform: capitalize;
+    margin-bottom: 105px;
+}
+header nav h1{
+    margin: 0px 24% 15px 65px;
+}
+header nav .active,
+h1{
+    color: white;
+}
+header nav h1 i{
+    font-size: 5px;
+    color: #4adda0;
+}
+header nav p{
+    color:rgba(255, 255, 255, 0.61);
+    padding: 10px 12px;
+}
+header nav button{
+    background-color: #4adda0;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0px 10px 20px 9%;
+    border: none;
+    text-transform: uppercase;
+}
+header .learn{
+    width: 42%;
+    margin-left: 25px;
+    margin-bottom: 10%;
+    padding: 12px;
+    color: white;
+}
+header .learn a{
+    border-bottom: 6px solid #4adda0;
+}
+header .learn h2{
+    font-size: 45px;
+    text-transform: capitalize;
+    font-family: emoji;
+    padding: 10px;
+    letter-spacing: 6px;
+}
+header .learn .play{
+    border: 2px solid #4adda0;
+    float: right;
+    margin-right: -80%;
+    border-radius: 54px;
+    width: 90px;
+    padding: 4px 0px;
+    text-align: center;
+}
+header  .learn i{
+    font-size: 44px;
+    padding: 20px;
+    background-color: #4adda0;
+    border-radius: 45px;
+}
+header .learn p{
+    padding: 15px 5px;
+    color: white;
+    font-size: 22px;
+    font-family: cursive;
+}
+header .learn button{
+    background-color: #4adda0;
+    color: white;
+    padding: 10px 28px;
+    border-radius: 20px;
+    margin: 20px 0px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+main .first-section{
+    display: flex;
+    margin: -5% 10% 30px 10%;
+}
+main .first-section div{
+    display: flex;
+    flex-direction: column;
+}
+main .first-section .learn i{
+    width: 22%;
+    text-align: center;
+    margin: 25px 25px 5px 25px;
+    color: white;
+    font-size: 35px;
+    padding: 18px;
+    border-radius: 28px;
+    background-color: #2be52b9e;
+}
+main .first-section .play i{
+    width: 22%;
+    text-align: center;
+    margin: 25px 25px 5px 25px;
+    color: white;
+    font-size: 35px;
+    padding: 18px;
+    border-radius: 28px;
+    background-color: #fda848;
+}
+main .first-section .meal i{
+    width: 22%;
+    text-align: center;
+    margin: 25px 25px 5px 25px;
+    color: white;
+    font-size: 35px;
+    padding: 18px;
+    border-radius: 28px;
+    background-color: #79aeed;
+}
+main .first-section h3{
+    color: white;
+    padding: 0px 35px;
+    font-size: 25px;
+    font-family: emoji;
+    text-transform: capitalize;
+}
+main .first-section p{
+    padding: 10px 30px;
+    font-family: cursive;
+}
+main .first-section .learn{
+    background-color: #16c716;
+    padding: 15px 0px;
+    margin: 0px 20px;
+}
+main .first-section .play{
+    background-color: #f78b11;
+    padding: 15px 0px;
+    margin: 0px 20px;
+}
+main .first-section .meal{
+    background-color: #5894da;
+    padding: 15px 0px;
+    margin: 0px 20px;
+}
+main .offers h3{
+    text-align: center;
+    color: #68c768;
+    font-size: 40px;
+    font-family: emoji;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin: 50px;
+}
+main .offers div{
+    margin-top: 65px;
+}
+main .offers a{
+    border-bottom: 2px solid red;
+    font-family: emoji;
+    letter-spacing: 2px;
+    padding: 0px 0px 3px 0px;
+}
+main .offers p{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    width: 60%;
+    font-family: cursive;
+    margin: 0px 20%;
+}
+main .offers-part2{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 5% 15%;
+}
+main .offers-part2 div{
+    width: calc(70% / 3);
+    margin: 20px 5%;
+}
+main .offers-part2 .music{
+    padding: 5px;
+    border: 1px solid #bef980;
+    border-radius: 20px;
+}
+main .offers-part2 .math{
+    padding: 5px;
+    border: 1px solid #fda84878;
+    border-radius: 20px;
+}
+main .offers-part2 .english{
+    padding: 5px;
+    border: 1px solid #a9dce7;
+    border-radius: 20px;
+}
+main .offers-part2 .reading{
+    padding: 3px;
+    border: 1px solid #6c098d73;
+    border-radius: 19px;
+}
+main .offers-part2 .history{
+    padding: 4px;
+    border: 1px solid #5894da85;
+    border-radius: 20px;
+}
+main .offers-part2 .book{
+    padding: 5px;
+    border: 1px solid #f78b118a;
+    border-radius: 20px;
+}
+main .offers-part2 #music{
+    color: green;
+    padding: 5px 5px;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #c4ff84c9;
+}
+main .offers-part2 #fas-fa-calculator{
+    color: #ff0000;
+    padding: 5px 7px;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #e373007a;
+}
+main .offers-part2 #english{
+    color: #5679cb;
+    padding: 5px 5px;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #a9dce782;
+}
+main .offers-part2 #fas-fa-book{
+    color: #6c098d;
+    padding: 8px 10px;
+    font-size: 28px;
+    border-radius: 15px;
+    background-color: #c597cbc9;
+}
+main .offers-part2 #history{
+    color: #15ff5d;
+    padding: 5px 4px;
+    font-size: 35px;
+    border-radius: 15px;
+    background-color: #2be52b52;
+}
+main .offers-part2 #book{
+    color: #ff8d00;
+    padding: 5px 5px;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #f7a24c7d;
+}
+main .offers-part2 h3{
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: emoji;
+    padding: 5px;
+}
+main .offers-part2 p{
+    color: black;
+    font-family: cursive;
+    font-size: 10px;
+    line-break: anywhere;
+}
+main .education{
+    background-image: url("../post refreshment/imgs/xabout_2.jpg.pagespeed.ic.2AiHZqjCBB.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main .education h3{
+    color: white;
+    font-size: 50px;
+    font-family: emoji;
+    padding: 20% 0px 0px 10%;
+}
+main .education p{
+    font-family: emoji;
+    text-align: center;
+    width: 60%;
+    font-size: 30px;
+    margin: 0px 0px 0px 5%;
+}
+main .education button{
+    background-color: #10c77b;
+    color: white;
+    padding: 18px;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    margin: 5px 30% 25%;
+}
+main .education div{
+    background-color: #787a3b6b;
+    overflow: hidden;
+}
+main .about-us{
+    width: 50%;
+    margin: 5% 12%;
+    display: flex;
+}
+main .about-us a{
+    border-bottom: 2px solid red;
+    font-family: emoji;
+    padding: 6px 0px;
+}
+main .about-us h3{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #10c77b;
+    letter-spacing: 2px;
+    font-family: emoji;
+}
+main .about-us i{
+    margin: 12px 0px;
+    color: #10c77b;
+}
+main .about-us .done{
+    display: flex;
+}
+main .about-us p{
+    font-family: cursive;
+    color: #000000b8;
+    font-size: 18px;
+}
+main .about-us .done div{
+    margin: 20px;
+    text-transform: capitalize;
+    padding: 5px
+}
+main .about-us .done div h4{
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: cursive;
+    color: #10c77b;
+    padding-left: 10px;
+}
+main .about-us span .admission{
+    background-color: #10c77b;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    text-transform: uppercase;
+    margin-left: 35px;
+}
+main .about-us span .learn-more{
+    color: #10c77b;
+    background-color: white;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid #10c77b;
+    text-transform: uppercase;
+}
+main .about-us .about-us-right div{
+    float: right;
+    background-color: #59f95730;
+    position: relative;
+    right: -77%;
+    height: 60%;
+}
+main .about-us .about-us-right div img{
+    width: 440px;
+    padding: 25px;
+    position: relative;
+    right: 50%;
+}
+main .school-news{
+    background-color: #eee;
+}
+main .school-news  h4{
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: emoji;
+    color: #10c77b;
+    padding: 5% 0px 20px 0px;
+    letter-spacing: 2px;
+}
+main .school-news  p{
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: emoji;
+    color: #10c77b;
+    padding: 8% 0px 10px 0px;
+    letter-spacing: 2px;
+}
+main .school-news section{
+    display: flex;
+    padding: 35px 50px;
+} 
+main .school-news section  div img{
+    width: 200px;
+    height: 255px;
+} 
+main .school-news section  div p{
+    font-size: 13px;
+    text-align: inherit;
+    font-family: cursive;
+    padding: 10px;
+}
+main .school-news section  div i{
+    color: #00000038;
+    padding: 4px 8px;
+}
+main .school-news section  div h4{
+    font-size: 25px;
+    text-align: inherit;
+    padding: 10px
+}
+main .school-news section .one{
+    background-color: white;
+    box-shadow: 4px 4px 8px -4px black;
+    margin-right: 25px;
+}
+main .school-news section div{
+    box-shadow: 4px 4px 8px -4px black;
+}
+main .school-news p{
+    color: black;
+    font-size: 25px;
+    padding: 18px 13%;
+    text-align: center;
+}
+main .pricing-head h4 {
+    margin: 100px 0px 50px;
+    color: #10c77b;
+    text-align: center;
+    font-size: 35px;
+    font-family: emoji;
+}
+main .pricing-head a{
+    font-size: 35px;
+    font-family: emoji;
+    padding-bottom: 5px;
+    border-bottom: 2px solid red;
+}
+main .pricing-head p{
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-family: cursive;
+    margin: 0px 27.5% 50px;
+    width: 45%;
+}
+main .pricing {
+    display: flex;
+    width: 75%;
+    margin: 0px 4.5%;
+}
+main .pricing .main-div {
+    border: 2px solid #dcdcdc9c;
+    margin: 0px 50px;
+}
+main .pricing img {
+    width: 90px;
+    padding: 10px;
+    margin: 15px 110px;
+}
+main .pricing .infant{
+    position: absolute;
+    width: 7%;
+    height: 13%;
+    left: 17%;
+    margin-top: 37px;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: azure;
+}
+main .pricing .toddler{
+    position: absolute;
+    width: 7%;
+    height: 13%;
+    left: 47%;
+    margin-top: 25px;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: azure;
+}
+main .pricing .lad{
+    position: absolute;
+    width: 7%;
+    height: 13%;
+    right: 15%;
+    margin-top: 25px;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: azure;
+}
+main .pricing p b{
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: 200;
+}
+main .pricing h5{
+    font-size: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: emoji;
+    letter-spacing: 2px;
+}
+main .pricing p {
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding: 15px;
+}
+main .pricing button {
+    background-color: #10c77b;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    text-transform: uppercase;
+    margin: 40px 93px
+}
+main .pricing .b1 {
+    color: #10c77b;
+    background-color: white;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid #10c77b;
+    text-transform: uppercase;
+    margin: 20px 90px;
+}
+main .last-section{
+    display: flex;
+    margin: -8% 15%;
+    width: 70%;
+}
+main  .empty-div{
+    width: 300px;
+    height: 252px;
+    background-color: #fbe90e3b;
+    position: relative;
+    bottom: -70px;
+}
+main .last-section div h6{
+    font-size: 30px;
+    color: #10c77b;
+    font-family: emoji;
+    text-transform: capitalize;
+    margin: 20px;
+    
+}
+main .last-section div a{
+    text-transform: capitalize;
+    font-family: emoji;
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+}
+main .last-section div p{
+    color: black;
+    font-family: cursive;
+    width: 58%;
+    margin: 20px;
+}
+main .last-section div img{
+    width: 250px;
+}
+main .last-section div .james{
+    width: 70px;
+    border-radius: 50%;
+    margin: 10px 20px;
+}
+main .last-section div .name{
+    font-size: 20px;
+    margin: 0px 20px;
+}
+main .last-section div span{
+    margin-left: 25px;
+}
+main .last-section div .job{
+    text-transform: capitalize;
+    margin: 0px 15px;
+}
+main .last-section div i{
+    color: #80808073;
+    font-size: 16px;
+    padding: 25px 6px;
+}
+main .last-section div #active{
+    color: #10c77b;
+}
+main .last-section .right-div{
+    margin-right: 145px;
+}
+main .last-section .right-div p{
+    font-size: 15px;
+    width: 100%;
+}
+main .last-section .right-div span .pos{
+    position: relative;
+    top: -25%;
+    left: 100%;
+}
+main .last-section .right-div .remove{
+    background-color: #10c77b;
+    color: white;
+}
+main .last-section .right-div .remove i{
+    color: white;
+}
+main .last-section .right-div .add{
+    position: relative;
+    top: -26%
+}
+main .last-section .right-div .add2{
+    position: relative;
+    top: -33%
+}
+main .last-section .right-div .add i{
+    color: black;
+}
+main .last-section .right-div .add2 i{
+    color: black;
+}
+footer{
+    display: flex;
+    background-color: #10c77b;
+    padding: 5%
+    
+}
+footer div{
+    margin: 0px 20px;
+}
+footer div h6{
+    font-family: emoji;
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    padding: 15px 0px;
+}
+footer div p{
+    font-size: 18px;
+    font-family: cursive;
+    padding: 10px 0px;
+}
+footer div .bold{
+    color: #eeeeee85;
+    font-size: 12px;
+}
+footer div span i{
+    background-color: white;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 10px;
+}
+footer .gallery div img{
+    width: 75px;
+    height: 91px;
+
+}
